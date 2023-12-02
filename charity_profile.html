@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>children in need</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="charity-profile">
+            <img src="charity-word.jpg" alt="Charity 1">
+            <h2>About Charity One</h2>
+            <p>Description of Charity One. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+
+            <h2>Recent Activities</h2>
+            <ul class="activity-list">
+                <li>
+                    <p>Date: January 5, 2023</p>
+                    <p>Event: Fundraising Gala</p>
+                </li>
+                <li>
+                    <p>Date: December 20, 2022</p>
+                    <p>Event: Community Outreach</p>
+                </li>
+                
+            </ul>
+            <button id="volunteerButton">Volunteer Now</button>
+
+            <h2>Donate to Charity One</h2>
+            <form action="process_donation.php" method="post">
+                <label for="donationAmount">Donation Amount:</label>
+                <input type="text" id="donationAmount" name="donationAmount" required>
+
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" required>
+
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <input type="submit" value="Donate">
+            </form>
+            <h2>Donate to Charity Two</h2>
+            <form action="process_donation.php" method="post">
+                <label for="donationAmount">Donation Amount:</label>
+                <input type="text" id="donationAmount" name="donationAmount" required>
+
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" required>
+
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <input type="submit" value="Donate">
+            </form>
+            <h2>Donate to Charity three</h2>
+            <form action="process_donation.php" method="post">
+                <label for="donationAmount">Donation Amount:</label>
+                <input type="text" id="donationAmount" name="donationAmount" required>
+
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" required>
+
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <input type="submit" value="Donate">
+            </form>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 HelpHub. All rights reserved.</p>
+            <p>Contact us: info@helphub.com</p>
+        </div>
+    </footer>
+    <script src="charity_profile.js"></script>
+
+</body>
+</html>
